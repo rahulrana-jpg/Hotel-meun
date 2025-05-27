@@ -5,9 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    img {
+        width: 100%;;
+    }
+</style>
 <body>
-    <img src="IMG-20250526-WA0001.jpg" alt="width=100%">
-    <img src="IMG-20250526-WA0002.jpg" alt="width=100%">
+    <div class="one" id="one" style="background-color: #f0f0f0; padding: 20px; text-align: center;">
+        <div class="two" id="two" style="background-color: #d0d0d0; padding: 10px; margin-bottom: 20px;">
+            <h1>My First Web Page</h1>
+            <p>This is a paragraph in my first web page.</p>
+        </div>
+        <div class="three" id="three" style="background-color: #b0b0b0; padding: 10px;">
+    <center><h1><b>Rahul Rana</b></h1></center>
+        </div>
+    <img src="IMG-20250526-WA0001.jpg" alt="">
+    <img src="IMG-20250526-WA0002.jpg" alt="" width="100%">
     <img src="IMG-20250526-WA0003.jpg" alt="width=100%">
     <img src="IMG-20250526-WA0004.jpg" alt="width=100%">
     <img src="IMG-20250526-WA0005.jpg" alt="width=100%">
@@ -16,5 +29,34 @@
     <img src="IMG-20250526-WA0008.jpg" alt="width=100%">
     <img src="IMG-20250526-WA0009.jpg" alt="width=100%">
 
+    <hr>
+    <h2>About Our Hotel</h2>
+    <p>
+        Welcome to our hotel! We offer the best services and comfortable rooms for your stay. 
+        Enjoy our amenities including free Wi-Fi, complimentary breakfast, and a beautiful view.
+    </p>
+
+    <h2>Our Services</h2>
+    <ul>
+        <li>24/7 Room Service</li>
+        <li>Swimming Pool</li>
+        <li>Fitness Center</li>
+        <li>Restaurant & Bar</li>
+        <li>Conference Rooms</li>
+        <li>Spa & Wellness</li>
+    </ul>
+
+    <h2>Contact Us</h2>
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="30"></textarea><br><br>
+        <input type="submit" value="Send">
+    </form>
+
+    
 </body>
 </html>
